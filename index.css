@@ -1,0 +1,27 @@
+* { 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #232931;
+}
+
+h1 {
+    color: palegreen;
+    text-align: center;
+}
+
+
+p, 
+li {
+font-size: 20px;
+color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: palegreen;
+}
