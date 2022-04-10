@@ -1,1 +1,135 @@
+* { 
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+body {
+    background-color: #232931;
+}
+
+.header-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#coding-tag {
+    color: #4ECCA3;
+    font-size: 200px;
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.wrapper {
+    height: 10vh;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .typing-demo {
+    width: 25ch;
+    animation: typing 2s steps(25), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    color: #4ECCA3;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+
+h1 {
+    color: #4ECCA3;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+}
+
+
+nav ul li {
+    list-style: none;
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+    display: inline;
+    border: 1px solid none;
+    margin-right: 25px;
+    text-align: center;
+    background-color: #4ECCA3; 
+    border-radius: 5px;
+}
+
+li a.active {
+color: #232931;
+}
+
+p, 
+li {
+font-size: 20px;
+color: whitesmoke;
+text-align: center;
+}
+
+#about-label, p, ul, li {
+    color: black;
+}
+
+nav a {
+    color: #232931;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+}
+
+#about {
+    background-color: whitesmoke;
+    width: auto;
+    height: 750px;
+}
+
+#projects-area {
+    background-color:  #232931;
+    width: auto;
+    height: 500px;
+}
+
+.project-1, p {
+    font-size: 1em;
+    color:whitesmoke;
+    display: block;
+    text-align:center;
+    width: auto;
+    height: auto;
+}
+
+/* Media Querry */
+@media only screen and (max-width: 480px) {
+    body {
+      width: 270px;
+    }
+    }
