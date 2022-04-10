@@ -104,6 +104,10 @@ footer {
     height: 750px;
 }
 
+#about-label, p, ul, li {
+    color: black;
+}
+
 #projects {
     background-color:  #232931;
     width: auto;
